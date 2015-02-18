@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ED02FE61A94F20D00E390EC /* ITunesSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED02FE51A94F20D00E390EC /* ITunesSearchAPI.swift */; };
 		4EEFCBB71A93F2640033972C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBB61A93F2640033972C /* AppDelegate.swift */; };
 		4EEFCBB91A93F2640033972C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBB81A93F2640033972C /* ViewController.swift */; };
 		4EEFCBBC1A93F2640033972C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFCBBA1A93F2640033972C /* Main.storyboard */; };
 		4EEFCBBE1A93F2640033972C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFCBBD1A93F2640033972C /* Images.xcassets */; };
 		4EEFCBC11A93F2640033972C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFCBBF1A93F2640033972C /* LaunchScreen.xib */; };
 		4EEFCBCD1A93F2640033972C /* RestExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBCC1A93F2640033972C /* RestExampleTests.swift */; };
-		4EEFCBD71A93F2DF0033972C /* ITunesSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBD61A93F2DF0033972C /* ITunesSearchAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ED02FE51A94F20D00E390EC /* ITunesSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesSearchAPI.swift; sourceTree = "<group>"; };
 		4EEFCBB11A93F2640033972C /* RestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEFCBB51A93F2640033972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EEFCBB61A93F2640033972C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		4EEFCBC61A93F2640033972C /* RestExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEFCBCB1A93F2640033972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EEFCBCC1A93F2640033972C /* RestExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestExampleTests.swift; sourceTree = "<group>"; };
-		4EEFCBD61A93F2DF0033972C /* ITunesSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ITunesSearchAPI.swift; path = ../ITunesSearchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		4EEFCBB31A93F2640033972C /* RestExample */ = {
 			isa = PBXGroup;
 			children = (
-				4EEFCBD61A93F2DF0033972C /* ITunesSearchAPI.swift */,
+				4ED02FE51A94F20D00E390EC /* ITunesSearchAPI.swift */,
 				4EEFCBB61A93F2640033972C /* AppDelegate.swift */,
 				4EEFCBB81A93F2640033972C /* ViewController.swift */,
 				4EEFCBBA1A93F2640033972C /* Main.storyboard */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEFCBD71A93F2DF0033972C /* ITunesSearchAPI.swift in Sources */,
+				4ED02FE61A94F20D00E390EC /* ITunesSearchAPI.swift in Sources */,
 				4EEFCBB91A93F2640033972C /* ViewController.swift in Sources */,
 				4EEFCBB71A93F2640033972C /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +409,7 @@
 				4EEFCBD21A93F2640033972C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EEFCBD31A93F2640033972C /* Build configuration list for PBXNativeTarget "RestExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				4EEFCBD51A93F2640033972C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
