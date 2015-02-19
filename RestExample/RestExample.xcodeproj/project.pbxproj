@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EAC53801A95404E00AB9FA7 /* DeitelOrange_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC537F1A95404E00AB9FA7 /* DeitelOrange_58x58.png */; };
 		4ED02FE61A94F20D00E390EC /* ITunesSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED02FE51A94F20D00E390EC /* ITunesSearchAPI.swift */; };
 		4EEFCBB71A93F2640033972C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBB61A93F2640033972C /* AppDelegate.swift */; };
 		4EEFCBB91A93F2640033972C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCBB81A93F2640033972C /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EAC537F1A95404E00AB9FA7 /* DeitelOrange_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeitelOrange_58x58.png; sourceTree = "<group>"; };
 		4ED02FE51A94F20D00E390EC /* ITunesSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesSearchAPI.swift; sourceTree = "<group>"; };
 		4EEFCBB11A93F2640033972C /* RestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEFCBB51A93F2640033972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,9 +60,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EAC537E1A95401E00AB9FA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC537F1A95404E00AB9FA7 /* DeitelOrange_58x58.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4EEFCBA81A93F2640033972C = {
 			isa = PBXGroup;
 			children = (
+				4EAC537E1A95401E00AB9FA7 /* Resources */,
 				4EEFCBB31A93F2640033972C /* RestExample */,
 				4EEFCBC91A93F2640033972C /* RestExampleTests */,
 				4EEFCBB21A93F2640033972C /* Products */,
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEFCBBC1A93F2640033972C /* Main.storyboard in Resources */,
+				4EAC53801A95404E00AB9FA7 /* DeitelOrange_58x58.png in Resources */,
 				4EEFCBC11A93F2640033972C /* LaunchScreen.xib in Resources */,
 				4EEFCBBE1A93F2640033972C /* Images.xcassets in Resources */,
 			);
