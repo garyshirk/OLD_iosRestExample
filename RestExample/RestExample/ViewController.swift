@@ -68,7 +68,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             var image: UIImage? = self.imageCache.valueForKey(urlString) as? UIImage
             
-            if (image? != nil) {
+            if (image != nil) {
                 
                 // If the image does not exist in the cache then we need to download it
                 var imgURL: NSURL = NSURL(string: urlString)!
